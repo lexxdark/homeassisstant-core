@@ -3,6 +3,9 @@
   "context": "..",
   "dockerFile": "../Dockerfile.dev",
   "build.dockerFile": "../Dockerfile.dev",
+  "build": {
+    "dockerfile": "../Dockerfile.dev"
+  },
   "postCreateCommand": "script/setup",
   "postStartCommand": "script/bootstrap",
   "containerEnv": { "DEVCONTAINER": "1" },
