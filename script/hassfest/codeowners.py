@@ -21,7 +21,7 @@ pyproject.toml @home-assistant/core
 build.json @home-assistant/supervisor
 /machine/ @home-assistant/supervisor
 /rootfs/ @home-assistant/supervisor
-/Dockerfile @home-assistant/supervisor
+/Dockerfile.main @home-assistant/supervisor
 
 # Other code
 /homeassistant/scripts/check_config.py @kellerza

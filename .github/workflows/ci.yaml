@@ -421,14 +421,14 @@ jobs:
       - name: Register hadolint problem matcher
         run: |
           echo "::add-matcher::.github/workflows/matchers/hadolint.json"
+      - name: Check Dockerfile.main
+        uses: docker://hadolint/hadolint:v1.18.2
+        with:
+          args: hadolint Dockerfile.main
       - name: Check Dockerfile
         uses: docker://hadolint/hadolint:v1.18.2
         with:
           args: hadolint Dockerfile
-      - name: Check Dockerfile.dev
-        uses: docker://hadolint/hadolint:v1.18.2
-        with:
-          args: hadolint Dockerfile.dev
 
   base:
     name: Prepare dependencies
