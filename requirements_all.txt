@@ -665,6 +665,9 @@ crownstone-sse==2.0.4
 # homeassistant.components.crownstone
 crownstone-uart==2.1.0
 
+# homeassistant.components.istabai
+dacite==1.8.1
+
 # homeassistant.components.datadog
 datadog==0.15.0
 
@@ -1069,6 +1072,9 @@ horimote==0.4.1
 
 # homeassistant.components.remember_the_milk
 httplib2==0.20.4
+
+# homeassistant.components.istabai
+httpx==0.26.0
 
 # homeassistant.components.huawei_lte
 huawei-lte-api==1.7.3

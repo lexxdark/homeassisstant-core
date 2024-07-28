@@ -2166,6 +2166,12 @@
       "config_flow": true,
       "iot_class": "local_polling"
     },
+    "goguwork": {
+      "name": "Gogu works",
+      "integration_type": "hub",
+      "config_flow": true,
+      "iot_class": "cloud_polling"
+    },
     "goodwe": {
       "name": "GoodWe Inverter",
       "integration_type": "hub",
@@ -2833,6 +2839,12 @@
     "iss": {
       "name": "International Space Station (ISS)",
       "integration_type": "service",
+      "config_flow": true,
+      "iot_class": "cloud_polling"
+    },
+    "istabai": {
+      "name": "Istabai",
+      "integration_type": "hub",
       "config_flow": true,
       "iot_class": "cloud_polling"
     },

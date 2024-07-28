@@ -15,7 +15,7 @@ pyproject.toml @home-assistant/core
 build.json @home-assistant/supervisor
 /machine/ @home-assistant/supervisor
 /rootfs/ @home-assistant/supervisor
-/Dockerfile @home-assistant/supervisor
+/Dockerfile.main @home-assistant/supervisor
 
 # Other code
 /homeassistant/scripts/check_config.py @kellerza
@@ -480,6 +480,8 @@ build.json @home-assistant/supervisor
 /tests/components/goalzero/ @tkdrob
 /homeassistant/components/gogogate2/ @vangorra
 /tests/components/gogogate2/ @vangorra
+/homeassistant/components/goguwork/ @lexxdark
+/tests/components/goguwork/ @lexxdark
 /homeassistant/components/goodwe/ @mletenay @starkillerOG
 /tests/components/goodwe/ @mletenay @starkillerOG
 /homeassistant/components/google/ @allenporter
@@ -652,6 +654,8 @@ build.json @home-assistant/supervisor
 /tests/components/islamic_prayer_times/ @engrbm87
 /homeassistant/components/iss/ @DurgNomis-drol
 /tests/components/iss/ @DurgNomis-drol
+/homeassistant/components/istabai/ @lexxdark
+/tests/components/istabai/ @lexxdark
 /homeassistant/components/isy994/ @bdraco @shbatm
 /tests/components/isy994/ @bdraco @shbatm
 /homeassistant/components/izone/ @Swamp-Ig

@@ -1,0 +1,13 @@
+{
+  "domain": "istabai",
+  "name": "Istabai",
+  "codeowners": ["@lexxdark"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://www.home-assistant.io/integrations/istabai",
+  "homekit": {},
+  "iot_class": "cloud_polling",
+  "requirements": ["httpx==0.26.0", "dacite==1.8.1"],
+  "ssdp": [],
+  "zeroconf": []
+}

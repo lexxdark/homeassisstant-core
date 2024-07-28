@@ -1,0 +1,194 @@
+{
+  "timestamp": 1707521628,
+  "rooms": [
+    {
+      "id": 7398,
+      "read_only": false,
+      "name": "Living",
+      "temperature": 23.7,
+      "min_temperature": 10,
+      "max_temperature": 25,
+      "motion_sensor_armed": true,
+      "set_temperature": {
+        "day": 23,
+        "night": 23,
+        "eco": 15,
+        "temp": 19,
+        "offline": 23,
+        "boost": false
+      },
+      "humidity": 56,
+      "device": {
+        "faulty": false,
+        "battery": 0.91,
+        "charging": false,
+        "signal": 0.56,
+        "last_data": 1707521318
+      },
+      "last_motion": 1707521569,
+      "has_motion_sensor": true,
+      "is_water": false,
+      "on_schedule": true,
+      "boost_until": false,
+      "boost_until_normal": false,
+      "mode": "ECO",
+      "active_schedule_id": 7512
+    },
+    {
+      "id": 7752,
+      "read_only": false,
+      "name": "Dormitor",
+      "temperature": 24,
+      "min_temperature": 15,
+      "max_temperature": 30,
+      "motion_sensor_armed": true,
+      "set_temperature": {
+        "day": 22,
+        "night": 24,
+        "eco": 15,
+        "temp": 23,
+        "offline": 23,
+        "boost": false
+      },
+      "humidity": 61,
+      "device": {
+        "faulty": false,
+        "battery": 0.92,
+        "charging": false,
+        "signal": 1,
+        "last_data": 1707521507
+      },
+      "last_motion": null,
+      "has_motion_sensor": false,
+      "is_water": false,
+      "on_schedule": true,
+      "boost_until": false,
+      "boost_until_normal": false,
+      "mode": "NIGHT",
+      "active_schedule_id": 11697
+    },
+    {
+      "id": 7839,
+      "read_only": false,
+      "name": "Camera fete",
+      "temperature": 23.1,
+      "min_temperature": 15,
+      "max_temperature": 30,
+      "motion_sensor_armed": true,
+      "set_temperature": {
+        "day": 23.5,
+        "night": 23,
+        "eco": 15,
+        "temp": 24.5,
+        "offline": 23,
+        "boost": false
+      },
+      "humidity": 50,
+      "device": {
+        "faulty": false,
+        "battery": 0.32,
+        "charging": false,
+        "signal": 0.88,
+        "last_data": 1707521421
+      },
+      "last_motion": null,
+      "has_motion_sensor": false,
+      "is_water": false,
+      "on_schedule": true,
+      "boost_until": false,
+      "boost_until_normal": false,
+      "mode": "NIGHT",
+      "active_schedule_id": 11492
+    },
+    {
+      "id": 7629,
+      "read_only": false,
+      "name": "Birou",
+      "temperature": 21.9,
+      "min_temperature": 5,
+      "max_temperature": 30,
+      "motion_sensor_armed": true,
+      "set_temperature": {
+        "day": 23.5,
+        "night": 23.5,
+        "eco": 15,
+        "temp": 23.5,
+        "offline": 23.1,
+        "boost": false
+      },
+      "humidity": 44,
+      "device": {
+        "faulty": false,
+        "battery": 0.92,
+        "charging": false,
+        "signal": 0.69,
+        "last_data": 1707521340
+      },
+      "last_motion": null,
+      "has_motion_sensor": false,
+      "is_water": false,
+      "on_schedule": true,
+      "boost_until": false,
+      "boost_until_normal": false,
+      "mode": "ECO",
+      "active_schedule_id": 7512
+    }
+  ],
+  "home": {
+    "id": 2525,
+    "name": "Persepolis",
+    "rooms": 4,
+    "last_motion": 1707521569,
+    "warnings": 0,
+    "boiler": false,
+    "address": null,
+    "has_boiler": true,
+    "notifications": 301,
+    "boiler_delay": true,
+    "boiler_delay_timeout": "5",
+    "mode": "123",
+    "schedules": [
+      {
+        "id": 7273,
+        "name": "C6 N23",
+        "default": true
+      },
+      {
+        "id": 7491,
+        "name": "E6 C11 N22",
+        "default": false
+      },
+      {
+        "id": 7512,
+        "name": "Eco",
+        "default": false
+      },
+      {
+        "id": 7690,
+        "name": "E8 N21",
+        "default": false
+      },
+      {
+        "id": 11490,
+        "name": "E6 C10 N20",
+        "default": false
+      },
+      {
+        "id": 11492,
+        "name": "E6 N20",
+        "default": false
+      },
+      {
+        "id": 11697,
+        "name": "E6 N21:30",
+        "default": false
+      }
+    ],
+    "offline_mode": true,
+    "time_zone": "Europe/Bucharest",
+    "location": null,
+    "features": [],
+    "owner_user_id": 10343
+  },
+  "home_count": 1
+}
