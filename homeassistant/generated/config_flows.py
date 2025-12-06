@@ -247,6 +247,7 @@ FLOWS = {
         "iqvia",
         "islamic_prayer_times",
         "iss",
+        "istabai",
         "isy994",
         "izone",
         "jellyfin",

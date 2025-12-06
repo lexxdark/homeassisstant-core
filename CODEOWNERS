@@ -652,6 +652,8 @@ build.json @home-assistant/supervisor
 /tests/components/islamic_prayer_times/ @engrbm87
 /homeassistant/components/iss/ @DurgNomis-drol
 /tests/components/iss/ @DurgNomis-drol
+/homeassistant/components/istabai/ @lexxdark
+/tests/components/istabai/ @lexxdark
 /homeassistant/components/isy994/ @bdraco @shbatm
 /tests/components/isy994/ @bdraco @shbatm
 /homeassistant/components/izone/ @Swamp-Ig
